@@ -1,0 +1,124 @@
+<!-- NAV BAR ASSIGNMENT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="py-5 bg-black">
+
+<!-- tailwind css navbar  -->
+    <nav class="flex justify-between bg-gray-800 px-2">
+        <div class="flex ">
+              <img src="./tcss.png" alt="" class="h-8 w-8 gap-4 mt-3 ml-4" >
+              <div class="flex px-5 py-4 gap-4 h-7 w-7 text-white">
+              <h1>  tailwindcss  </h1>
+            </div>
+        </div>
+        <div class="flex">
+            <ul class="flex px-5 py-4 gap-4 text-white hidden md:flex">
+                <li>docs</li>
+                <li>components</li>
+                <li>blog</li>
+                <li>showcase</li>
+            </ul>
+            <div class="flex px-5 py-5 gap-4 text-white hidden md:flex">
+            <i class="fa-regular fa-moon"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="flex px-5 py-4 gap-4">
+            <i class="fa-solid fa-magnifying-glass text-white md:hidden"></i>
+            <i class="fa-solid fa-ellipsis-vertical text-white md:hidden"></i>
+        
+        </div>
+    </div>
+    </nav>
+
+<!-- ikea navbar -->
+
+<nav class="flex  bg-white mt-8 justify-between px-20">
+    <!-- left -->
+    <div class="flex gap-14">
+<img src="https://www.ikea.com/in/en/static/ikea-logo.3ee105eef6b5939c1269.svg" alt="" class="px-5 py-5 ">
+
+
+<form class="border bg-gray-200 flex items-center flex-grow w-[600px] mt-3 rounded-full gap-2 h-12 px-6 hidden md:flex">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" name="text" placeholder="what are you looking for?" class="h-full w-full flex bg-gray-200 ">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
+      </svg>
+      
+</form>
+</div>
+<!-- right -->
+<div class="flex gap-6">
+    <div class="flex items-center gap-4 hidden md:flex">
+        <i class="fa-solid fa-truck"></i>
+    <p>Enter postal code </p>
+    </div>
+    <div class="flex items-center gap-4">
+        <i class="fa-solid fa-store"></i>
+        <p class="hidden md:flex">Select store</p>
+    </div>
+    <div class="flex items-center gap-4">
+        <i class="fa-regular fa-user"></i>
+        <p class="hidden md:flex">Hej! Log in or sign up</p>
+    </div>
+    <div class="flex items-center gap-14">
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+    </div>
+</div>
+</nav>
+
+<!-- nykka -->
+<nav class=" py-3 bg-white mt-5 flex gap-8 justify-between px-[50px]">
+  
+    <!-- left  -->
+    <div class="flex gap-8 justify-center ">
+        
+<img src="data:image/png;base64,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" class="h-22 w-20">
+</div>
+
+<ul class="flex mt-6 gap-8 font-bold hidden lg:flex">
+<li>Categories</li>
+<li>Brand</li>
+<li>Nykaa Fashion</li>
+<li>Beauty Advice</li>
+</ul>
+
+<!-- right  -->
+<div class="flex gap-8 mt-4">
+    
+    <div class="hidden md:flex">
+
+    <form  class="border px-8 flex items-center flex-grow  gap-4 h-12 bg-gray-200 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+          <input type="text" name="text" placeholder="Search on Nykaa"class="h-full w-full flex bg-gray-200  ">    
+</form>
+</div>
+
+<div>
+<button class="bg-pink-500 px-9 py-2 text-white flex justify-center items-center font-semibold text-lg active:bg-pink-600 rounded-2xl">Sign Up</button>
+</div>
+<div class="flex  mt-4 gap-4">
+    <i class="fa-solid fa-gift"></i>
+
+    <i class="fa-solid fa-bars"></i>
+</div>
+
+</div>
+</div>
+
+
+</nav>
+
+</body>
+</html>
